@@ -1,0 +1,20 @@
+[project]
+name = "my-pytorch-project"
+version = "0.1.0"
+description = "Converted from requirements.txt"
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "torch==2.10.0",
+    "torchvision==0.25.0",
+    "beartype>=0.22.9,<0.23",
+    "jaxtyping>=0.3.11,<0.4",
+    "pandas>=3.0.5,<4",
+    "pillow>=12.3.0,<13",
+    "psutil>=7.2.2,<8",
+    "scikit-learn>=1.9.0,<2",
+    "segmentation-models-pytorch>=0.5.0,<0.6",
+    "albumentations>=2.0.8,<3",
+    "av>=14,<16",
+    "streamlit>=1.66.1,<2",
+]

@@ -1,0 +1,22 @@
+# TEMPORARILY NOT USED
+
+# Python requirement: >=3.13, <3.14 (handled by your environment/runtime)
+
+# PyTorch & Torchvision (mapped from Conda 'pytorch-gpu' and 'torchvision')
+# For CUDA 12.8 wheels, you may need: --extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.10.0
+torchvision==0.25.0
+
+# General dependencies (from [dependencies])
+beartype>=0.22.9,<0.23
+jaxtyping>=0.3.11,<0.4
+pandas>=3.0.5,<4
+pillow>=12.3.0,<13
+psutil>=7.2.2,<8
+scikit-learn>=1.9.0,<2
+segmentation-models-pytorch>=0.5.0,<0.6
+
+# PyPI dependencies (from [pypi-dependencies])
+albumentations>=2.0.8,<3
+av>=14,<16
+streamlit>=1.66.1,<2
